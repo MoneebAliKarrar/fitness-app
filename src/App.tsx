@@ -2,6 +2,7 @@ import Navbar from "@/scenes/Navbar"
 import { useEffect, useState } from "react";
 import { SelectedPage } from "./shared/types";
 import Home from '@/scenes/home'
+import Benefits from "./scenes/Benefits";
 
 
 function App() {
@@ -29,6 +30,7 @@ useEffect(() => {
      selectedPage={selectedPage} setSelectedPage={setSelectedPage}>
      </Navbar>
      <Home setSelectedPage={setSelectedPage}></Home>
+     <Benefits setSelectedPage={setSelectedPage}></Benefits>
     </div>
   )
 }
