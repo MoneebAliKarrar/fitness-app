@@ -36,7 +36,7 @@ useEffect(() => {
      <Benefits setSelectedPage={setSelectedPage}></Benefits>
      <OurClasses setSelectedPage = {setSelectedPage}></OurClasses>
      <ContactUs setSelectedPage = {setSelectedPage}></ContactUs>
-     <Footer setSelectedPage = {setSelectedPage}></Footer>
+     <Footer></Footer>
     </div>
   )
 }
